@@ -1,0 +1,30 @@
+{% extends 'department74/base.html' %}
+{% block content %}
+
+<div>
+    <h3 class="display-4">Комплектующие</h3>
+</div>
+
+<table class="table table-bordered table-striped table-hover table-sm">
+    <thead class="thead-dark">
+    <tr>
+        <th>Тип</th>
+        <th>Наименование</th>
+        <th>Серийный номер</th>
+        <th>Страна производства</th>
+        <th>Дата</th>
+    </tr>
+    </thead>
+    {% for component in components %}
+        <tr>
+            <td>{{ component.name_type }}</td>
+            <td>{{ component.name }}</td>
+            <td>{{ component.serial_number }}</td>
+            <td>{{ component.country }}</td>
+            <td>{{ component.date_of_arrival }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<a href="{% url 'components_new' %}" class="top-menu"><span class="fas fa-plus"></span></a>
+{% endblock %}

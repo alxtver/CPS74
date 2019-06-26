@@ -1,0 +1,10 @@
+{% extends 'department74/base.html' %}
+
+{% block content %}
+    <h1>New post</h1>
+    <form method="POST" class="component-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-dark">Сохранить</button>
+        <button onclick="location.href = '/components/'" class="btn btn-dark">Отмена</button>
+    </form>
+{% endblock %}
