@@ -11,6 +11,8 @@
         <th>Тип</th>
         <th>Наименование</th>
         <th>Серийный номер</th>
+        <th>Партия</th>
+        <th>Номер машины</th>
         <th>Страна производства</th>
         <th>Дата</th>
     </tr>
@@ -20,11 +22,15 @@
             <td>{{ component.name_type }}</td>
             <td>{{ component.name }}</td>
             <td>{{ component.serial_number }}</td>
+            <td>{{ component.part_name }}</td>
+            <td>{{ component.computer }}</td>
             <td>{{ component.country }}</td>
             <td>{{ component.date_of_arrival }}</td>
         </tr>
     {% endfor %}
 </table>
+
+
 
 <a href="{% url 'components_new' %}" class="top-menu"><span class="fas fa-plus"></span></a>
 {% endblock %}
