@@ -33,7 +33,7 @@ class Part(models.Model):
 
 class Computer(models.Model):
     id = models.AutoField(primary_key=True)
-    serial_number = models.CharField(max_length=100)
+    serial_number = models.CharField(max_length=100, unique=True)
     type_components = models.ManyToManyField(TypeComponents, blank=True)
     part_name = models.ForeignKey(Part, null=True, on_delete=models.CASCADE)
 
@@ -44,11 +44,12 @@ class Computer(models.Model):
         """String for representing the Model object."""
         return self.serial_number
 
+
 class Components(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=200)
-    serial_number = models.CharField(max_length=255)
-    name_type = models.ForeignKey(TypeComponents, on_delete=models.CASCADE,
+    serial_number = models.CharField(max_length=255, unique=True)
+    name_type = models.ForeignKey(TypeComponents, null=False, on_delete=models.CASCADE,
                                   help_text='Тип комплектующих')
     country = models.ForeignKey(Country, on_delete=models.SET_NULL, null=True, blank=True,
                                 help_text='Страна производства')
@@ -59,8 +60,3 @@ class Components(models.Model):
     def __str__(self):
         """String for representing the Model object."""
         return '{0}, Серийный номер - {1}'.format(self.name, self.serial_number)
-
-
-
-
-
