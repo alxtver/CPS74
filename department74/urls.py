@@ -8,4 +8,5 @@ urlpatterns = [
     path('components/new/', views.components_new, name='components_new'),
     path('arrival/', views.arrival, name='arrival'),
     path('search/', views.search, name='search'),
+    path('comp/', views.comp, name='comp'),
 ]

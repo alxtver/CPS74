@@ -1,0 +1,33 @@
+{% extends 'department74/base.html' %}
+
+{% block content %}
+<div>
+    <h3 class="display-4">Машины</h3>
+</div>
+    <div>
+    <table class="table table-bordered table-striped table-hover table-sm">
+        {% for j in comps %}
+          <thead class="thead-dark">
+	        <th>{{ j.part }} &nbsp &nbsp &nbsp{{ j.serial_number }}</th>
+            <th></th>
+
+          </thead>
+            {% for i in items %}
+                {% if j == i.comp %}
+
+                      <tr>
+                        <td>{{ i.items }}</td>
+                        <td>{{ i.quantity }}</td>
+                      </tr>
+
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </table>
+    </div>
+    <div>
+    <table>
+
+    </table>
+    </div>
+{% endblock %}

@@ -13,6 +13,13 @@ def arrival(request):
     return render(request, 'department74/arrival.html', {})
 
 
+def comp(request):
+    comps = Comp.objects.all()
+    items = CompItems.objects.all()
+
+    return render(request, 'department74/comp.html', {'comps': comps, 'items': items})
+
+
 def components_list(request):
     components = Components.objects.filter(date_of_arrival__lte=timezone.now()).order_by('date_of_arrival')
     errors = []
@@ -23,7 +30,7 @@ def components_list(request):
             errors.append('Введите поисковый запрос!')
             render_to_response('department74/components_list.html', {'components': components})
         elif len(q) > 50:
-            errors.append('Дохрена символов!')
+            errors.append('Много символов!')
         else:
             names = Components.objects.filter(name__icontains=q)
             serials = Components.objects.filter(serial_number__icontains=q)
