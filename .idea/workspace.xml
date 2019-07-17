@@ -2,14 +2,380 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319fd92e-3529-4c2d-ba99-fb7c0786f762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/department74/templates/department74/comp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/migrations/0029_auto_20190715_1119.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/migrations/0030_auto_20190716_0907.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/migrations/0031_delete_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/timeparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department74/static/js/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/easy_install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/easy_install-3.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/pip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/pip3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/pip3.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/easy_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip-18.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/build_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/cli/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/completion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/commands/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/locations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/models/candidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/models/format_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/models/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/models/link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/operations/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/operations/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/pep425tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/req_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/req_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/req_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/resolve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/glibc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/outdated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/packaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/utils/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/vcs/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/vcs/mercurial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_internal/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/_in_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/colorlog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/envbuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pip/_vendor/pep517/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/pkg_resources/py31compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_deprecation_warning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/archive_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/build_meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/cli-32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/cli-64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/alias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/bdist_rpm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/bdist_wininst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/build_clib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/build_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/build_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/develop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/dist_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/install_lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/launcher manifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/py36compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/saveopts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/setopt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/dep_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/depends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/extension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/extern/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/glibc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/glob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/gui-32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/gui-64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/gui.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/launch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/lib2to3_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/msvc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/namespaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/pep425tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/py27compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/py31compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/py33compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/sandbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/script (dev).tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/script.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/site-patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/ssl_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/unicode_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.7/site-packages/setuptools/windows_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/certifi-2018.8.24-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/distlib-0.2.8-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/distro-1.3.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/html5lib-1.0.1-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/idna-2.6-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/packaging-19.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/pip-18.1-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/progress-1.2-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/pytoml-0.1.2-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/requests-2.21.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/setuptools-40.8.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/six-1.12.0-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/urllib3-1.24.1-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/webencodings-0.5.1-py2.py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/share/python-wheels/wheel-0.32.3-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CPS74.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CPS74.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPS74/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CPS74/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/department74/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/department74/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/department74/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/templates/department74/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/department74/templates/department74/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department74/templates/department74/comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/department74/templates/department74/comp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/templates/department74/components_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/department74/templates/department74/components_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/templates/department74/components_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/department74/templates/department74/components_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department74/templates/department74/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/department74/templates/department74/search1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/department74/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department74/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/department74/views.py" afterDir="false" />
     </list>
@@ -46,8 +412,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -56,22 +422,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department74/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/department74/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -79,11 +433,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/templates/department74/comp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="738">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -91,8 +454,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,8 +463,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -112,8 +475,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -122,28 +485,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department74/templates/department74/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/department74/templates/department74/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="378">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -168,11 +513,13 @@
         <option value="$PROJECT_DIR$/department74/templates/department74/base.html" />
         <option value="$PROJECT_DIR$/department74/templatetags/my_filters.py" />
         <option value="$PROJECT_DIR$/department74/templates/department74/components_new.html" />
-        <option value="$PROJECT_DIR$/department74/forms.py" />
-        <option value="$PROJECT_DIR$/department74/views.py" />
-        <option value="$PROJECT_DIR$/department74/templates/department74/comp.html" />
-        <option value="$PROJECT_DIR$/department74/models.py" />
         <option value="$PROJECT_DIR$/department74/admin.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.vmoptions" />
+        <option value="$PROJECT_DIR$/department74/models.py" />
+        <option value="$PROJECT_DIR$/department74/forms.py" />
+        <option value="$PROJECT_DIR$/department74/templates/department74/comp.html" />
+        <option value="$PROJECT_DIR$/department74/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -188,6 +535,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,38 +543,17 @@
               <item name="CPS74" type="b2602c69:ProjectViewProjectNode" />
               <item name="CPS74" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CPS74" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CPS74" type="462c0819:PsiDirectoryNode" />
-              <item name="department74" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CPS74" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CPS74" type="462c0819:PsiDirectoryNode" />
-              <item name="department74" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CPS74" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CPS74" type="462c0819:PsiDirectoryNode" />
-              <item name="department74" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="department74" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CPS74" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,11 +614,15 @@
       <workItem from="1562133144983" duration="19749000" />
       <workItem from="1562220006496" duration="13915000" />
       <workItem from="1562309037295" duration="1770000" />
+      <workItem from="1563345854818" duration="486000" />
+      <workItem from="1563346843531" duration="45000" />
+      <workItem from="1563347947913" duration="4137000" />
+      <workItem from="1563357220123" duration="9557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136834000" />
+    <option name="totallyTimeSpent" value="151059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,9 +634,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="1280" y="0" width="1280" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1" y="31" width="266" height="962" id="Project" order="0" visible="true" weight="0.18122977" />
+      <window_info content_ui="combo" x="1" y="31" width="266" height="962" id="Project" order="0" visible="true" weight="0.1936791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -316,11 +648,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295325" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295325" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32882884" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.3295325" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" visible="true" weight="0.3295325" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295325" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162077" side_tool="true" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49837926" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32882884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,16 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Dropbox/source/Django/ras/calculation/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/source/Django/ras/calculation/views.py" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -406,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CPS74/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/sql/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="712">
@@ -435,75 +751,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/department74/templatetags/my_filters.py" />
-    <entry file="file://$PROJECT_DIR$/department74/models.py">
+    <entry file="file://$PROJECT_DIR$/department74/templates/department74/search.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department74/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/templates/department74/comp.html">
+    <entry file="file://$PROJECT_DIR$/CPS74/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="1505">
+          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_new.html">
+    <entry file="file://$PROJECT_DIR$/department74/templates/department74/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="378">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/forms.py">
+    <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/department74/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/templates/department74/search.html">
+    <entry file="file://$PROJECT_DIR$/department74/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_list.html">
+    <entry file="file://$PROJECT_DIR$/department74/templates/department74/components_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/templates/department74/base.html">
+    <entry file="file://$PROJECT_DIR$/department74/templates/department74/comp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="738">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/department74/admin.py">
+    <entry file="file://$PROJECT_DIR$/department74/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="432">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -512,11 +836,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/department74/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>

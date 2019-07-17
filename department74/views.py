@@ -1,7 +1,7 @@
 from django.shortcuts import render, render_to_response
 from django.utils import timezone
-from .models import *
-from .forms import ComponentsForm
+from .models import Comp, CompItems, Components
+from .forms import ComponentsForm, PartForm
 from django.shortcuts import redirect
 
 
@@ -14,10 +14,18 @@ def arrival(request):
 
 
 def comp(request):
-    comps = Comp.objects.all()
-    items = CompItems.objects.all()
-
-    return render(request, 'department74/comp.html', {'comps': comps, 'items': items})
+    if request.method == 'POST':
+        form = PartForm(request.POST)
+        if 'select' in request.POST:
+            select = request.POST['select']
+            if select == '':
+                return render(request, 'department74/comp.html', {'form': form})
+            comps = Comp.objects.filter(part_id=select)
+            comps_serial = [c.serial_number for c in comps]
+            items = CompItems.objects.filter(comp__serial_number__in=comps_serial)
+            return render(request, 'department74/comp.html', {'form': form, 'comps': comps, 'items': items})
+    form = PartForm()
+    return render(request, 'department74/comp.html', {'form': form})
 
 
 def components_list(request):
@@ -35,14 +43,16 @@ def components_list(request):
             names = Components.objects.filter(name__icontains=q)
             serials = Components.objects.filter(serial_number__icontains=q)
             types = Components.objects.filter(name_type__name_type__icontains=q)
-            matches = list(serials) + list(names) + list(types)
+            part_names = Components.objects.filter(part_name__part_name__icontains=q)
+            matches = list(serials) + list(names) + list(types) + list(part_names)
             if not matches:
                 notfound = 'Ничего не найдено'
-            return render_to_response('department74/components_list.html', {'matches': matches, 'query': q, 'notfound': notfound})
+            return render_to_response('department74/components_list.html', {
+                'matches': matches,
+                'query': q,
+                'notfound': notfound})
 
     return render_to_response('department74/components_list.html', {'errors': errors, 'components': components})
-
-    # return render(request, 'department74/components_list.html', {'components': components})
 
 
 def components_new(request):
@@ -50,33 +60,8 @@ def components_new(request):
         form = ComponentsForm(request.POST)
         if form.is_valid():
             new_component = form.save()
-            # new_component.name = request.name
-            # new_component.type_name = request.type_name
-            # new_component.serial_number = request.serial_number
-            # new_component.country = request.country
-            # new_component.date_of_arrival = timezone.now()
             new_component.save()
             return redirect('/components/new/')
     else:
         form = ComponentsForm()
     return render(request, 'department74/components_new.html', context={'form': form})
-
-
-def search(request):
-    errors = []
-    notfound = ''
-    if 'q' in request.GET:
-        q = request.GET['q']
-        if not q:
-            errors.append('Введите поисковый запрос!')
-        elif len(q) > 50:
-            errors.append('Дохрена символов!')
-        else:
-            names = Components.objects.filter(name__icontains=q)
-            serials = Components.objects.filter(serial_number__icontains=q)
-            types = Components.objects.filter(name_type__name_type__icontains=q)
-            matches = list(serials) + list(names) + list(types)
-            if not matches:
-                notfound = 'Ничего не найдено'
-            return render_to_response('department74/search.html', {'matches': matches, 'query': q, 'notfound': notfound})
-    return render_to_response('department74/search.html', {'errors': errors})

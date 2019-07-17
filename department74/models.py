@@ -35,24 +35,14 @@ class Part(models.Model):
 class CompItems(models.Model):
     comp = models.ForeignKey('Comp', verbose_name='Серийный номер машины', on_delete=models.CASCADE)
     items = models.ForeignKey('TypeComponents', verbose_name='Тип', on_delete=models.CASCADE)
-    quantity = models.ForeignKey('Quantity', default=1,  on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=1)
 
     # def get_quantity(self):
     #     return [i for i in self.quantity.all()]
 
     def __str__(self):
         """String for representing the Model object."""
-        return self.comp.serial_number + ' ' + str(self.quantity)
-
-
-class Quantity (models.Model):
-    kol = models.IntegerField(default=1)
-
-    def __int__(self):
-        return self.kol
-
-    def __str__(self):
-        return str(self.kol)
+        return self.comp.serial_number
 
 
 class Comp(models.Model):
@@ -78,7 +68,7 @@ class Components(models.Model):
                                 help_text='Страна производства')
     date_of_arrival = models.DateTimeField(auto_now_add=True)
     part_name = models.ForeignKey(Part, blank=True, null=True, on_delete=models.CASCADE)
-    # computer = models.ForeignKey(Computer, blank=True, null=True, on_delete=models.SET_NULL)
+
 
     def __str__(self):
         """String for representing the Model object."""

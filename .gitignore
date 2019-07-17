@@ -1,8 +1,8 @@
 *.pyc
 *~
 __pycache__
-venv
+.venv
+.env
 db.sqlite3
-/static
 .DS_Store
 .idea

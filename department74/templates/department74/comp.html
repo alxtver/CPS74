@@ -1,20 +1,29 @@
 {% extends 'department74/base.html' %}
 
 {% block content %}
+
+
+
 <div>
     <h3 class="display-4">Машины</h3>
 </div>
+
+<form method="POST" class="part-form" >
+    <div class="form-group my-3">
+        {% csrf_token %}
+        {{ form.as_table }}
+    </div>
+</form>
+
     <div>
     <table class="table table-bordered table-striped table-hover table-sm">
         {% for j in comps %}
           <thead class="thead-dark">
 	        <th>{{ j.part }} &nbsp &nbsp &nbsp{{ j.serial_number }}</th>
             <th></th>
-
           </thead>
             {% for i in items %}
                 {% if j == i.comp %}
-
                       <tr>
                         <td>{{ i.items }}</td>
                         <td>{{ i.quantity }}</td>
@@ -25,9 +34,10 @@
         {% endfor %}
     </table>
     </div>
-    <div>
-    <table>
 
-    </table>
-    </div>
+<script type="text/javascript">
+    const arr = $('select[name=select] option');
+    $('#id_select').prepend('<option selected value="0">Выберите серию</option>');
+</script>
+
 {% endblock %}
